@@ -1,0 +1,12 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'AuthTest' do
+  pod 'IQKeyboardManagerSwift'
+  pod 'SVProgressHUD'
+  pod 'SDWebImage', '~> 4.0'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Database'
+end
